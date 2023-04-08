@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <section class="credit-card">
+      <div id="front"></div>
+      <div id="back"></div>
+    </section>
+    <section id="inputs">
+      <div class="input-wrapper">
+        <label for="card-number">Número do cartão</label>
+        <input 
+        type="name" 
+        name="number" 
+        id="card-number"
+        placeholder="**** **** **** ****"
+         >
+      </div>
+
+      <div class="input-wrapper">
+        <label for="card-name">Nome do titular</label>
+        <input 
+        type="name" 
+        name="name" 
+        id="card-name"
+        placeholder="Nome como está no cartão"
+        >
+      </div>
+
+      <div class="col-2">
+        <div class="input-wrapper">
+          <label for="validate">Validade</label>
+          <input 
+          type="date" 
+          id="validate"
+          placeholder="mm/aa"
+          >
+        </div>
+        <div class="input-wrapper">
+          <label for="cvv">Cvv</label>
+          <input 
+          type="password" 
+          id="cvv"
+          placeholder="***"
+          >
+        </div>
+      </div>
+    </section>
+  </form>
+</body>
+
+</html>
