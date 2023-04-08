@@ -60,16 +60,6 @@ form {
   transform: rotateY(-180deg);
 }
 
-/* .credit-card:hover #front {
-  transform: rotateY(180deg);,
-
-}
-
-.credit-card:hover #back{
-  transform: rotateY(0);
-  
-} */
-
 .flip {
   transform: rotateY(180deg) !important;
 }
